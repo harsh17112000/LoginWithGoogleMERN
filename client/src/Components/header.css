@@ -1,0 +1,41 @@
+header{
+    /* margin-top: -35px; */
+    padding: 0;
+   width: 100%;
+    height: 80px;
+    background: rgb(108, 108, 235);
+  }
+  header nav{
+    width: 1200px;
+    margin:auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  header nav .left{
+    color: white;
+  }
+  
+  header nav .right ul{
+    display: flex;
+    width: 400px;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+  }
+  
+  header nav .right ul li{
+    font-size: 19px;
+    text-transform: capitalize;
+    color: white;
+    cursor: pointer;
+  
+  }
+  
+  
+  header nav .right ul li a{
+    text-decoration: none;
+    color: white;
+  
+  }
